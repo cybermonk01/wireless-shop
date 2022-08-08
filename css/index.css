@@ -1,0 +1,156 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.nav-item {
+  color: grey;
+  font-size: 18px;
+  margin-left: 110px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.active-item {
+  color: #fe5e35;
+}
+
+.nav-item:hover {
+  color: #fe5e35;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-left: 30px;
+  margin-bottom: -40px;
+}
+
+.text {
+  flex-wrap: wrap;
+  flex: 500px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+h3 {
+  font-family: "Poppins";
+  font: weight 600px;
+  font-size: 24px;
+}
+h1 {
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 48px;
+  margin-top: -20px;
+}
+
+.sub-headlines {
+  margin-left: 50px;
+}
+.circle_logo {
+  font-size: 12px;
+}
+
+.svg-icon {
+  background-color: #fe5e35;
+  border-radius: 80px;
+  height: 25px;
+  margin-right: space;
+  margin: 0 15px;
+}
+
+.sub-headline {
+  font-size: 20px;
+  font-family: "Poppins";
+}
+p {
+  color: grey;
+  margin: 0;
+  margin-bottom: -420px;
+}
+
+.discount-content {
+  font-family: "Poppins";
+  color: #fff;
+  position: absolute;
+  top: 350px;
+  right: 400px;
+  z-index: 2;
+  font-weight: 900;
+}
+.discount {
+  position: absolute;
+  top: 320px;
+  right: 380px;
+  z-index: 1;
+  height: 160px;
+}
+.headphone {
+  position: absolute;
+  top: 120px;
+  right: 50px;
+  height: 65%;
+}
+
+.action-btn {
+  background-color: #fe5e35;
+  color: #fff;
+  border-radius: 90px;
+  margin-left: 20px;
+  margin-top: -220px;
+  padding: 20px;
+  border: none;
+}
+.cart {
+  z-index: 1;
+  position: relative;
+  top: 30px;
+  right: 20px;
+  font-size: 14px;
+  padding: 15px 190px;
+}
+
+.dot {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 500px;
+  padding: 20px;
+  height: 17px;
+  width: 250px;
+  z-index: 3;
+  border: 1px solid red;
+}
+
+.yellow-dot {
+  color: yellow;
+  padding: auto;
+  height: 170px;
+  width: 250px;
+}
+
+.tomato-dot {
+  color: red;
+}
+
+.black-dot {
+  color: #1f1f1f;
+}
