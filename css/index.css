@@ -122,8 +122,8 @@ p {
 .cart {
   z-index: 1;
   position: relative;
-  top: 30px;
-  right: 20px;
+  top: 60px;
+  right: -160px;
   font-size: 14px;
   padding: 15px 190px;
 }
@@ -137,7 +137,6 @@ p {
   height: 17px;
   width: 250px;
   z-index: 3;
-  border: 1px solid red;
 }
 
 .yellow-dot {
@@ -153,4 +152,16 @@ p {
 
 .black-dot {
   color: #1f1f1f;
+}
+@media screen and (max-width: 950px) {
+  .action-btn {
+    margin-top: 40px;
+  }
+
+  .cart {
+    padding: 15px 90px;
+    margin-left: 90px;
+    position: relative;
+    bottom: 350px;
+  }
 }
